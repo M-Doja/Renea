@@ -1,0 +1,11 @@
+html, body {margin: 0 auto;text-align: center;}
+/*#body-wrap {background-color: #333;}*/
+.nav {background-color: rgba(255, 0, 0, 0.3)}
+.nav-wrap {background-color:white;position: fixed;margin:0 auto;width: 100%;}
+.nav li {list-style: none;display: inline;padding: 50px;}
+.nav li a { text-decoration: none;font-size: 2em;font-family: 'Oleo Script', cursive; }
+#title {font-family: 'Oleo Script';font-weight: bold;font-size: 3.2em;}
+#bkPic {display: inline;margin-top: 310px;}
+@media (min-width:407px) { #bkPic {margin-top: 260px;} }
+@media (min-width:418px) { #bkPic {margin-top: 180px;} }
+@media (min-width:771px) { #bkPic {margin-top: 140px;} }
